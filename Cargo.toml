@@ -1,0 +1,15 @@
+[package]
+name = "e-con"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+structopt = "0.3.17"
+
+[lib]
+name = "econ"
+path = "src/lib.rs"
+
+[[bin]]
+name = "e-con"
+path = "src/bin.rs"
